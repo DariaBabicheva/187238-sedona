@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Седона</title>
+</head>
+
+<body>
+
+<header class="main_header">
+<div class="container">
+<nav class="main_container">
+<ul>
+  <li class="main_container_list">
+    <a href="#">Информация</a>
+  </li>
+  <li class="main_container_list">
+    <a href="#">Фото и видео</a>
+  </li>
+  <li class="main_container_list">
+   <a href="#"><img src="#" width="#" height="#" alt="City of Sedona"></a>
+   </li>
+   <li class="main_container_list">
+     <a href="#">Карта штата</a>
+   </li>
+   <li class="main_container_list">
+     <a href="#">Гостиницы</a>
+   </li>
+   </ul>
+   </nav>
+  </div>
+  </header>
+
+  <main class="container">
+  <section class="hotel_filter">
+
+  <div class="hotel_filter_infrastructure">
+  <h3 class="hotel_filter_article">Инфраструктура</h3>
+  <form action="#" method="get"  class="hotel_filter_form">
+  <ul class="hotel_filter_list">
+  <li class="hotel_filter_element">
+    <input type="checkbox" name="swimming_pool" value="#" id="#"><label>Бассейн</label>
+  </li>
+  <li class="hotel_filter_element">
+  <input type="checkbox" name="parking" value="#" id="#"><label>Парковка</label>
+  </li>
+  <li class="hotel_filter_element">
+  <input type="checkbox" name="wifi" value="#" id="#"><label>Wi-Fi</label>
+  </li>
+  </ul>
+  </form>
+  </div>
+
+  <div class="hotel_filter_type_of_hotel">
+  <h3 class="hotel_filter_article">Тип жилья</h3>
+  <form action="#" method="get"  class="hotel_filter_form">
+  <ul class="hotel_filter_list">
+  <li class="hotel_filter_element">
+    <input type="checkbox" name="hotel" value="#" id="#"><label>Гостиница</label>
+  </li>
+  <li class="hotel_filter_element">
+  <input type="checkbox" name="motel" value="#" id="#"><label>Мотель</label>
+  </li>
+  <li class="hotel_filter_element">
+  <input type="checkbox" name="apart" value="#" id="#"><label>Апартаменты</label>
+  </li>
+  </ul>
+  </form>
+  </div>
+
+
+  <div class="hotel_filter_rates">
+  <h3 class="hotel_filter_article">Стоимость в сутки (Р):</h3>
+  <form action="#" method="get"  class="hotel_filter_rates_form">
+  <ul class="hotel_filter_rates_list">
+  <li class="hotel_filter_rates_element">
+    <input type="checkbox" name="rates" value="от 0 до 3000" id="#">
+  </li>
+  </ul>
+  </form>
+  </div>
+  </section>
