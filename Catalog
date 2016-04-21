@@ -5,62 +5,54 @@
   <title>Седона</title>
 </head>
 <body>
-  <header class="main_header">
-   <div class="container">
-    <nav class="main_nav">
-      <ul>
-        <li class="main_nav_list"><a href="#">Информация</a></li>
-        <li class="main_nav_list"><a href="#">Фото и видео</a></li>
-        <li class="main_nav_list"><a href="#">Карта штата</a></li>
-        <li class="main_nav_list"><a href="#">Гостиницы</a></li>
-      </ul>
-     </nav>
-    <div class="sedona_emblem">
+  <div class="container">
+    <header class="main_header">
+      <nav class="main_nav">
+        <ul>
+          <li class="main_nav_list"><a href="#">Информация</a></li>
+          <li class="main_nav_list"><a href="#">Фото и видео</a></li>
+          <li class="main_nav_list"><a href="#">Карта штата</a></li>
+          <li class="main_nav_list"><a href="#">Гостиницы</a></li>
+        </ul>
+       </nav>
+     <div class="sedona_emblem">
         <a href="#"><img src="#" width="#" height="#" alt="City of Sedona"></a>
-    </div>
-   </div>
+     </div>
   </header>
 
    <main class="sedona_catalog">
      <section class="hotel_filter">
-       <div class="hotel_filter_field">
-         <span class="hotel_filter_text_bold">Инфраструктура</span>
-         <form action="#" method="get"  class="hotel_filter_form">
+       <form action="#" method="get"  class="hotel_filter_form">
+         <fieldset class="hotel_filter_field">
+           <legend class="hotel_filter_text_bold">Инфраструктура</legend>
            <input type="checkbox" name="swimming_pool" value="#" id="#"><label>Бассейн</label>
-           <p><input type="checkbox" name="parking" value="#" id="#"><label>Парковка</label></p>
-           <p><input type="checkbox" name="wifi" value="#" id="#"><label>Wi-Fi</label></p>
-        </form>
-      </div>
+           <input type="checkbox" name="parking" value="#" id="#"><label>Парковка</label>
+           <input type="checkbox" name="wifi" value="#" id="#"><label>Wi-Fi</label>
+        </fieldset>
 
-      <div class="hotel_filter_field">
-        <span class="hotel_filter_text_bold">Тип жилья</span>
-        <form action="#" method="get"  class="hotel_filter_form">
+       <fieldset class="hotel_filter_field">
+        <legend class="hotel_filter_text_bold">Тип жилья</legend>
           <input type="checkbox" name="hotel" value="#" id="#"><label>Гостиница</label>
-          <p><input type="checkbox" name="motel" value="#" id="#"><label>Мотель</label></p>
-          <p><input type="checkbox" name="apart" value="#" id="#"><label>Апартаменты</label></p>
-        </form>
-      </div>
+          <input type="checkbox" name="motel" value="#" id="#"><label>Мотель</label></p>
+          <input type="checkbox" name="apart" value="#" id="#"><label>Апартаменты</label>
+        </fieldset>
 
-      <div class="hotel_filter_rates">
-        <div class="hotel_filter_rates_cost">
-          <span class="hotel_filter_text_bold">Стоимость в сутки (Р):</span>
-          <form action="#" method="get"  class="hotel_filter_rates_form">
-            <input type="text" name="rates" value="от 0 до 3000" id="#">
+       <fieldset class="hotel_filter_rates">
+         <legend class="hotel_filter_text_bold">Стоимость в сутки (Р):</legend>
+         <input type="text" name="rates" value="от 0 до 3000" id="#">
+         <input type="submit" name="search" value="Показать" class="submit"><a class="btn_hotel_search">Показать</a>
+       </fieldset>
           </form>
-        </div>
-      <div class"hotel_filter_rates_show>
-        <a class="btn_hotel_search">Показать</a>
-      </div>
-    </section>
+        </section>
 
     <div class="sort_field">
       <div class="text_bold">Найдено:3</div>
       <div class="sort_field">
         <span class="sort_field_simple_text">Сортировка:</span>
         <ul>
-          <li class="sort_field_list">по цене</li>
-          <li class="sort_field_list">по типу</li>
-          <li class="sort_field_list">по рейтингу</li>
+          <li class="sort_field_list"><a href="#">по цене</a></li>
+          <li class="sort_field_list"><a href="#">по типу</a></li>
+          <li class="sort_field_list"><a href="#">по рейтингу</a></li>
         </ul>
       </div>
       <div class="arrows">
@@ -123,17 +115,14 @@
        <div class="footer">
          <div class="footer_name">#VISITSEDONA</div>
            <section class="footer_social">
-           <div class="all_social">
-             <a class="social_btn_twitter" href="#">Twitter</a>
-             <a class="social_btn_facebook" href="#">Facebook</a>
-             <a class="social_btn_youtube" href="#">YouTube</a>
-           </div>
+             <a class="social_btn social_btn_twitter" href="#">Twitter</a>
+             <a class="social_btn social_btn_facebook" href="#">Facebook</a>
+             <a class="social_btn social_btn_youtube" href="#">YouTube</a>
            </section>
            <div class="footer_copyright">
              <span class="simple_text">Website by</span>
              <a class="btn_htmlacademy" href="https://htmlacademy.ru">HTML Academy</a>
            </div>
-         </div>
        </div>
    </footer>
  </div>

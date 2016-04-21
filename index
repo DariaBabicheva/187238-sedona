@@ -5,20 +5,20 @@
   <title>Седона</title>
 </head>
 <body>
-  <header class="main_header">
-   <div class="container">
+  <div class="container">
+    <header class="main_header">
     <nav class="main_nav">
-      <ul>
-        <li class="main_nav_list">
+      <ul class="main_nav_list">
+        <li class="main_nav_item">
            <a href="#">Информация</a>
         </li>
-        <li class="main_nav_list">
+        <li class="main_nav_item">
            <a href="#">Фото и видео</a>
         </li>
-        <li class="main_nav_list">
+        <li class="main_nav_item">
           <a href="#">Карта штата</a>
         </li>
-        <li class="main_nav_list">
+        <li class="main_nav_item">
           <a href="#">Гостиницы</a>
         </li>
       </ul>
@@ -26,7 +26,6 @@
     <div class="sedona_emblem">
         <a href="#"><img src="#" width="#" height="#" alt="City of Sedona"></a>
     </div>
-   </div>
   </header>
 
    <main class="sedona_index">
@@ -34,7 +33,7 @@
        <img src="#" width="1200" height="768" alt="Welcome to Sedona">
     </div>
 
-     <div class="sedona_text">
+     <div class="intro">
        <h2 class="slogan">Седона - небольшой городок в Аризоне
          заслуживающий большего</h2>
        <p class="simple_text">Рассмотрим 5 причин, по которым Седона круче, чем  Гранд Каньон!</p>
@@ -55,7 +54,7 @@
     <div class="features_item">
       <img src="http://placehold.it/150x100" widht="#" height="#" alt="Жилье в Седоне" >
       <span class="text_bold">Жилье</span>
-      <p class="simple_text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p><
+      <p class="simple_text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
     </div>
 
 
@@ -110,33 +109,28 @@
    <div class="item">
      <span class="item_article">Заинтересовались?</span>
      <p class="simple_text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-   </div>
-
-   <div class="hotel_search">
      <a class="btn_hotel_search">Поиск гостиницы в Седоне</a>
    </div>
 
    <form action="#" method="post" class="search">
-     <label>Дата заезда</label><input type="data" name="check_in_date" class="calendar" value="24 апреля 2016">
-     <p><label>Дата выезда</label><input type="data" name="check_out_date" class="calendar" value="4 июля 2016"></p>
-     <p><label>Взрослые</label><input type="button" name="button" class="button" value="2">
-     <label>Дети</label><input type="button" name="button" class="button" value="0"></p>
+     <div class="form_check_in_date"><label>Дата заезда</label><input type="data" name="check_in_date" class="calendar" value="24 апреля 2016"></div>
+     <div class="form_check_out_date"><label>Дата выезда</label><input type="data" name="check_out_date" class="calendar" value="4 июля 2016"></div>
+     <div class="form_adultd"><label>Взрослые</label><input type="button" name="button" class="button" value="2"></div>
+     <div class="form_childs"><label>Дети</label><input type="button" name="button" class="button" value="0"></div>
      <input type="submit" name="search" value="Найти" class="submit">
    </form>
   </div>
 
   <footer class="main_footer">
-    <div class="footer">
       <div class="map">
         <img src="#" width="1200" height="200">
       </div>
-      <div class="footer_name">#VISITSEDONA</div>
+      <div class="footer">
+        <div class="footer_name">#VISITSEDONA</div>
         <section class="footer_social">
-        <div class="all_social_networks">
-          <a class="social_btn_twitter" href="#">Twitter</a>
-          <a class="social_btn_facebook" href="#">Facebook</a>
-          <a class="social_btn_youtube" href="#">YouTube</a>
-        </div>
+          <a class="social_btn social_btn_twitter" href="#">Twitter</a>
+          <a class="social_btn social_btn_facebook" href="#">Facebook</a>
+          <a class="social_btn social_btn_youtube" href="#">YouTube</a>
         </section>
         <div class="footer_copyright">
           <span class="simple_text">Website by</span>
