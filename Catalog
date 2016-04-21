@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>Седона</title>
+  <title>Выбор отелей в Седоне</title>
 </head>
 <body>
   <div class="container">
@@ -23,27 +23,31 @@
    <main class="sedona_catalog">
      <section class="hotel_filter">
        <form action="#" method="get"  class="hotel_filter_form">
-         <fieldset class="hotel_filter_field">
-           <legend class="hotel_filter_text_bold">Инфраструктура</legend>
-           <input type="checkbox" name="swimming_pool" value="#" id="#"><label>Бассейн</label>
-           <input type="checkbox" name="parking" value="#" id="#"><label>Парковка</label>
-           <input type="checkbox" name="wifi" value="#" id="#"><label>Wi-Fi</label>
-        </fieldset>
+         <div class="hotel_filter_left">
+           <fieldset class="hotel_filter_field">
+             <legend class="hotel_filter_text_bold">Инфраструктура</legend>
+             <label>Бассейн<input type="checkbox" name="swimming_pool" id="#"></label>
+             <label>Парковка<input type="checkbox" name="parking" id="#"></label>
+             <label>Wi-Fi<input type="checkbox" name="wifi"  id="#"></label>
+           </fieldset>
 
-       <fieldset class="hotel_filter_field">
-        <legend class="hotel_filter_text_bold">Тип жилья</legend>
-          <input type="checkbox" name="hotel" value="#" id="#"><label>Гостиница</label>
-          <input type="checkbox" name="motel" value="#" id="#"><label>Мотель</label></p>
-          <input type="checkbox" name="apart" value="#" id="#"><label>Апартаменты</label>
-        </fieldset>
+           <fieldset class="hotel_filter_field">
+             <legend class="hotel_filter_text_bold">Тип жилья</legend>
+             <label>Гостиница<input type="checkbox" name="hotel" id="#"></label>
+             <label>Мотель<input type="checkbox" name="motel" id="#"></label></p>
+             <label>Апартаменты<input type="checkbox" name="apart" id="#"></label>
+           </fieldset>
+        </div>
 
-       <fieldset class="hotel_filter_rates">
-         <legend class="hotel_filter_text_bold">Стоимость в сутки (Р):</legend>
-         <input type="text" name="rates" value="от 0 до 3000" id="#">
-         <input type="submit" name="search" value="Показать" class="submit"><a class="btn_hotel_search">Показать</a>
-       </fieldset>
-          </form>
-        </section>
+       <div class="hotel_filter_right">
+         <fieldset class="hotel_filter_rates">
+           <legend class="hotel_filter_text_bold">Стоимость в сутки (Р):</legend>
+           <input type="text" name="rates" value="от 0 до 3000" id="#">
+         </fieldset>
+           <a class="btn_hotel_search"><input type="submit" name="search" value="Показать" class="submit"></a>
+      </div>
+     </form>
+   </section>
 
     <div class="sort_field">
       <div class="text_bold">Найдено:3</div>
@@ -103,9 +107,11 @@
           <a class="btn_book" href="#">Забронировать</a>
         </div>
         <div class="hotel_rating">
+          <div class="stars">
           <span class="rating_star">&#9733;</span>
           <span class="rating_star">&#9733;</span>
           <span class="rating_star">&#9733;</span>
+        </div>
           <div class="rating">Рейтинг: 9,2</div>
         </div>
       </div>
