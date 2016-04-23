@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Выбор отелей в Седоне</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -16,7 +17,7 @@
         </ul>
        </nav>
      <div class="sedona_emblem">
-        <a href="#"><img src="#" width="#" height="#" alt="City of Sedona"></a>
+        <a href="#"><img src="img/logo.png" width="138" height="70" alt="City of Sedona"></a>
      </div>
   </header>
 
@@ -67,7 +68,7 @@
 
     <section class="hotels">
       <div class="hotel_preview">
-        <img src="http://placehold.it/150x100" widht="150" height="100" alt="Amara Resort&Spa">
+        <img src="img/amara.jpg" widht="135" height="90" alt="Amara Resort&Spa">
         <div class="hotel_info">
           <span class="text_bold">Amara Resort&Spa</span>
           <span class="simple_text">Гостиница   от 3500 р.</span>
@@ -84,7 +85,7 @@
       </div>
 
       <div class="hotel_preview">
-        <img src="http://placehold.it/150x100" widht="150" height="100" alt="Desert Quail Inn">
+        <img src="img/desert.jpg" widht="135" height="90" alt="Desert Quail Inn">
         <div class="hotel_info">
           <span class="text_bold">Desert Quail Inn</span>
           <span class="simple_text">Мотель   от 2000 р.</span>
@@ -99,7 +100,7 @@
       </div>
 
       <div class="hotel_preview">
-        <img src="http://placehold.it/150x100" widht="150" height="100" alt="Villas At Poco Diablo">
+        <img src="img/villa.jpg" widht="135" height="90" alt="Villas At Poco Diablo">
         <div class="hotel_info">
           <span class="text_bold">Villas At Poco Diablo</span>
           <span class="simple_text">Апартаменты   от 4000 р.</span>

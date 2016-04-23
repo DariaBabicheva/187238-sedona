@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Седона</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -24,13 +25,13 @@
       </ul>
      </nav>
     <div class="sedona_emblem">
-        <a href="#"><img src="#" width="#" height="#" alt="City of Sedona"></a>
+        <a href="#"><img src="img/logo.png" width="138" height="70" alt="City of Sedona"></a>
     </div>
   </header>
 
    <main class="sedona_index">
      <div class="sedona_logo">
-       <img src="#" width="1200" height="768" alt="Welcome to Sedona">
+       <img src="img/main_foto.png" width="1200" height="508" alt="Welcome to Sedona">
     </div>
 
      <div class="intro">
@@ -46,27 +47,27 @@
       <p class="field_simple_text">Седона - не аттракцион для туристов, там течет своя жизнь!</p>
     </div>
     <div class="field_right">
-      <img src="#" widht="#" height="#" alt="Город, где течет жизнь!">
+      <img src="img/1_reason.jpd" widht="800" height="256" alt="Город, где течет жизнь!">
     </div>
   </div>
 
  <div class="features">
     <div class="features_item">
-      <img src="http://placehold.it/150x100" widht="#" height="#" alt="Жилье в Седоне" >
+      <img src="img/house1.png" widht="75" height="72" alt="Жилье в Седоне" >
       <span class="text_bold">Жилье</span>
       <p class="simple_text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
     </div>
 
 
     <div class="features_item">
-      <img src="http://placehold.it/150x100" widht="#" height="#" alt="Еда в Седоне" >
+      <img src="img/food1.png" widht="75" height="72" alt="Еда в Седоне" >
       <span class="text_bold">Еда</span>
       <p class="simple_text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
     </div>
 
 
     <div class="features_item">
-      <img src="http://placehold.it/150x100" widht="#" height="#" alt="Сувениры из Седоны" >
+      <img src="img/gift.png" widht="75" height="72" alt="Сувениры из Седоны" >
       <span class="text_bold">Сувениры</span>
       <p class="simple_text">Не только китайского, но и местного производства!</p>
     </div>
@@ -75,7 +76,7 @@
 
     <div class="features_field">
       <div class="field_left">
-        <img src="#" widht="#" height="#" alt="Мост дьявола">
+        <img src="img/2_reason.jpg" widht="800" height="256" alt="Мост дьявола">
       </div>
       <div class="field_right">
         <span class="field_text_bold">Там есть мост дьявола</span>
@@ -132,7 +133,7 @@
 
   <footer class="main_footer">
       <div class="map">
-        <img src="#" width="1200" height="200">
+        <img src="img/map.jpg" width="1200" height="473">
       </div>
       <div class="footer">
         <div class="footer_name">#VISITSEDONA</div>
