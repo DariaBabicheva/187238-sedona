@@ -4,6 +4,7 @@ font-size: 14px;
 line-height: 26px;
 color: #333333;
 font-weight: bold;
+background-color: #f2f2f2;
 }
 
 h2 {
@@ -12,4 +13,115 @@ h2 {
   line-height: 26px;
   color: #333333;
   font-weight: bold;
+}
+
+.container {
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: #dbdbdb
+}
+
+.main_header {
+width: 1200px;
+}
+
+.main_nav {
+width: 1055px;
+margin: 0 72px;
+text-transform: uppercase;
+}
+
+
+
+.main_nav_list {
+margin: 0;
+}
+
+.main_nav_item {
+display: inline;
+margin-right: 148px;
+}
+
+.sedona_emblem {
+width: 138px;
+margin-right: 400px;
+float: right;
+text-align: center;
+
+}
+
+
+.sedona_logo{
+width: 1200px;
+background-image: url(/img/main_foto.jpg) no-repeat;
+background-image: url(/img/white-figure.png) no-repeat 50% 100%;
+margin-bottom: 58px;
+}
+
+.intro {
+width: 1200px;
+padding: 30px;
+margin: 30px;
+}
+
+.slogan {
+  display: block;
+  width: 437px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.simple_text {
+  display: block;
+  width: 488px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+
+.features_field: {
+width: 1200px;
+height: 256px;
+margin-bottom: 53px;
+}
+
+.field_left {
+width: 400px;
+height: 256px;
+float: left;
+background-color: #81b3d2;
+}
+
+.field_right {
+width: 800px;
+float:right;
+}
+
+.features {
+width: 1200px;
+height: 189px;
+margin-bottom: 85px;
+}
+
+.features_item {
+width: 400px;
+float: left;
+text-align: center;
+}
+
+.features_item .simple_text{
+width: 285px;
+margin-left: auto;
+margin-right: auto;
+text-transform: uppercase;
+text-align: center;
+}
+
+.text_bold {
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
 }
