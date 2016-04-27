@@ -16,112 +16,116 @@ h2 {
 }
 
 .container {
-width: 1200px;
-margin-left: auto;
-margin-right: auto;
-box-shadow: #dbdbdb
+  width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: #f2f2f2;
 }
 
 .main_header {
-width: 1200px;
+  width: 1200px;
+  min-height: 56px;
+  background-color: #fc8989;
 }
 
-.main_nav {
-width: 1055px;
-margin: 0 72px;
-text-transform: uppercase;
-}
-
-
-
-.main_nav_list {
-margin: 0;
-}
-
-.main_nav_item {
-display: inline;
-margin-right: 148px;
-}
-
-.sedona_emblem {
-width: 138px;
-margin-right: 400px;
-float: right;
-text-align: center;
-
-}
-
-
-.sedona_logo{
-width: 1200px;
-background-image: url(/img/main_foto.jpg) no-repeat;
-background-image: url(/img/white-figure.png) no-repeat 50% 100%;
-margin-bottom: 58px;
+.sedona_index {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .intro {
-width: 1200px;
-padding: 30px;
-margin: 30px;
-}
-
-.slogan {
-  display: block;
-  width: 437px;
+  width: 1200px;
+  min-height: 213px;
   margin-left: auto;
   margin-right: auto;
-  text-transform: uppercase;
-  text-align: center;
+  background-color: #fc8989;
 }
 
-.simple_text {
-  display: block;
-  width: 488px;
+.features_field_1::after {
+  content: "";
+  display: table;
+  width: 1200px;
+  min-height: 256px;
   margin-left: auto;
   margin-right: auto;
-  text-transform: uppercase;
+  clear: both;
 }
 
-.features_field: {
-width: 1200px;
-height: 256px;
-margin-bottom: 53px;
+.field_left_1 {
+  width: 400px;
+  min-height: 256px;
+  float: left;
+  background-color: #81b3d2;
 }
 
-.field_left {
-width: 400px;
-height: 256px;
-float: left;
-background-color: #81b3d2;
-}
-
-.field_right {
-width: 800px;
-float:right;
+.field_right_1 {
+  width: 800px;
+  height: 256px;
+  float: right;
 }
 
 .features {
-width: 1200px;
-height: 189px;
-margin-bottom: 85px;
+  content: "";
+  display: table;
+  width: 1200px;
+  min-height: 183px;
+  clear: both;
+  background-color: #fc8989;
 }
 
 .features_item {
-width: 400px;
-float: left;
-text-align: center;
+  width: 400px;
+  min-height: 183px;
+  float: left;
 }
 
-.features_item .simple_text{
-width: 285px;
-margin-left: auto;
-margin-right: auto;
-text-transform: uppercase;
-text-align: center;
+.features_field_2::after {
+  content: "";
+  display: table;
+  width: 1200px;
+  min-height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
 }
 
-.text_bold {
-font-weight: bold;
-text-transform: uppercase;
-text-align: center;
+.field_left_2 {
+  width: 800px;
+  height: 256px;
+  float: left;
+}
+
+.field_right_2 {
+  width: 400px;
+  min-height: 256px;
+  float: right;
+  background-color: #81b3d2;
+}
+
+.reason_field::after {
+  content: "";
+  display: table;
+  width: 1200px;
+  min-height: 258px;
+  padding-top: 50px;
+  padding-bottom: 65px;
+  margin: 0 auto;
+  background-color: #eeeeee;
+  clear: both;
+}
+
+.reason {
+  width: 400px;
+  float: left;
+}
+
+.item {
+  width: 1200px
+  min-height: 291px;
+}
+
+.main_footer {
+  width: 1200px;
+  min-height: 592px;
 }
