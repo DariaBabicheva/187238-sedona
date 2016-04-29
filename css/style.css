@@ -322,12 +322,15 @@ min-height: 280px;
 .footer::after {
   content: "";
   display: table;
+  clear: both;
+}
+
+.footer {
   width: 1200px;
   min-height: 50px;
   position: absolute;
   bottom: 0;
   background: rgba(255, 255, 255, .7);
-  clear: both;
 }
 
 .footer_name {
@@ -349,4 +352,60 @@ min-height: 280px;
   float: left;
   text-align: center;
   margin: 0 auto;
+}
+
+.hotel_filter {
+  width: 1200px;
+}
+
+.hotel_filter:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hotel_filter_left {
+  float: left;
+  margin-left: 30px;
+}
+
+.hotel_filter_right {
+  float: right;
+  margin-right: 40px;
+}
+
+
+
+.hotel_filter_text_bold {
+
+}
+
+.hotel_filter_field {
+  border: none;
+}
+
+.sort_field {
+  width: 1200px;
+}
+
+.sort_field {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sort_field .text_bold {
+  width: 200px;
+  padding: 30px;
+  margin-left: 15px;
+}
+
+.sorter_field {
+  width: 450px;
+  float: left;
+}
+
+.arrows {
+  width: 100px;
+  float: right;
 }
