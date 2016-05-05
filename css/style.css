@@ -104,7 +104,7 @@ clear: both;
 
 .main_nav_item:nth-child(1) {
   float: left;
-  margin-right: 143px;
+  margin-right: 147px;
 }
 
 .main_nav_item:nth-child(2) {
@@ -114,7 +114,7 @@ clear: both;
 
 .main_nav_item:nth-child(3) {
   float: right;
-  margin-left: 165px;
+  margin-left: 162px;
 }
 
 .main_nav_item:nth-child(4) {
@@ -160,6 +160,7 @@ margin-left: -69px;
   text-transform: uppercase;
   text-align: center;
 }
+
 
 .intro .simple_text {
   width: 488px;
@@ -208,7 +209,7 @@ margin-left: -69px;
 
 .field_simple_text {
   width: 301px;
-padding-bottom: 8px;
+padding-bottom: 21px;
 margin: 0 auto;
 text-align: center;
 text-transform: uppercase;
@@ -216,6 +217,7 @@ color: #ffffff;
 font-weight: normal;
 line-height: 21px;
 }
+
 
 .features {
   content: "";
@@ -229,14 +231,17 @@ line-height: 21px;
 .features_item {
   width: 400px;
   padding-top: 29px;
-  min-height: 183px;
+  padding-bottom: 57px;
   margin: 0 auto;
   float: left;
 }
 
 .icon {
   text-align: center;
-  margin: 30px 163px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 163px;
+  margin-right: 163px;
 }
 
 .features_item .text_bold {
@@ -244,14 +249,17 @@ line-height: 21px;
   line-height: 21px;
   text-transform: uppercase;
   text-align: center;
+  margin: 0 auto;
 }
 
 .features_item .simple_text {
-  width: 283px;
-  padding: 5px;
-  text-transform: uppercase;
-  font-weight: normal;
-  text-align: center;
+width: 283px;
+padding: 25px 0;
+margin: 0 auto;
+text-transform: uppercase;
+font-weight: normal;
+text-align: center;
+line-height: 21px;
 }
 
 .feature_2::after {
@@ -276,6 +284,20 @@ line-height: 21px;
   background-color: #81b3d2;
 }
 
+.feature_2 .field_text_bold {
+  display: block;
+width: 150px;
+padding-top: 55px;
+padding-bottom: 23px;
+margin: 0 auto;
+font-size: 21px;
+line-height: 21px;
+color: #ffffff;
+text-align: center;
+text-transform: uppercase;
+font-weight: normal;
+}
+
 .feature_2 .field_simple_text {
   width: 303px;
 }
@@ -284,7 +306,6 @@ line-height: 21px;
   content: "";
   display: table;
   width: 1200px;
-  padding: 30px 0;
   margin: 0 auto;
   background-color: #eeeeee;
   clear: both;
@@ -292,12 +313,11 @@ line-height: 21px;
 
 .reason {
   width: 400px;
-  padding-top: 50px;
   float: left;
   background-color: #eeeeee;
 }
 
-.text_bold {
+.reason .text_bold {
   display: block;
   width: 120px;
   margin: 0 auto;
@@ -305,22 +325,38 @@ line-height: 21px;
   line-height: 21px;
   text-align: center;
   text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 6px;
 }
 
-.simple_text {
+
+
+.reason .simple_text {
   width: 266px;
-  padding-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: normal;
-  text-transform: uppercase;
-  line-height: 21px;
-  text-align: center;
+padding-top: 11px;
+margin-left: auto;
+margin-right: auto;
+font-weight: normal;
+text-transform: uppercase;
+line-height: 21px;
+text-align: center;
+}
+
+.reason p {
+  width: 266px;
+padding-top: 11px;
+padding-bottom: 43px;
+margin-left: auto;
+margin-right: auto;
+font-weight: normal;
+text-transform: uppercase;
+line-height: 21px;
+text-align: center;
 }
 
 .item {
 width: 1200px;
-min-height: 260px;
+min-height: 293px;
   margin: 0 auto;
   position: relative;
 }
@@ -328,13 +364,19 @@ min-height: 260px;
 .item_article {
   font-size: 30px;
   line-height: 24px;
-  padding-top: 57px;
+  padding-top: 59px;
   text-align: center;
   text-transform: uppercase;
 }
 
 .item .simple_text {
   width: 436px;
+  white-space: pre;
+  margin: 0 auto;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 30px 0;
+  text-align: center;
 
 }
 
@@ -343,18 +385,16 @@ min-height: 260px;
   font-size: 21px;
   text-align: center;
   color: #ffffff;
-  padding: 34px 142px;
+  padding: 30px 119px;
   background-color: #766357;
   text-transform: uppercase;
   margin: 0 auto;
   position: absolute;
   bottom: 0;
   left: 50%;
-  margin-left: -270px;
+  margin-left: -285px;
 
 }
-
-
 
 .main_footer {
   width: 1200px;
@@ -364,7 +404,7 @@ min-height: 260px;
 
 .map {
   width: 1200px;
-  height: 473px;
+  height: 593px;
 
 }
 
@@ -376,10 +416,10 @@ min-height: 260px;
 
 .footer {
   width: 1200px;
-  min-height: 100px;
+  min-height: 120px;
   position: absolute;
   bottom: 0;
-  background: rgba(255, 255, 255, .7);
+  background: rgba(255, 255, 255, .9);
 }
 
 .footer_name {
@@ -390,6 +430,7 @@ min-height: 260px;
   font-size: 21px;
   line-height: 26px;
   padding: 20px 0;
+  margin-top: 27px;
 }
 
 .footer_social {
@@ -400,14 +441,15 @@ min-height: 260px;
 }
 
 .social_btn {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 11px;
-  background: #81b3d2;
-  color: #ffffff;
-  font-size: 19px;
-  line-height: 20px;
-  margin-top: 30px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 14px 10px;
+    background: #81b3d2;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 20px;
+    margin-top: 34px;
+    margin-right: 2px;
 }
 
 .footer_copyright {
@@ -417,6 +459,33 @@ min-height: 260px;
   margin: 0 auto;
   font-size: 14px;
   line-height: 26px;
+}
+
+.footer_copyright::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer_copyright .simple_text {
+  float: left;
+  display: block;
+  width: 82px;
+  padding: 30px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  margin-left: 98px;
+  margin-top: 16px;
+}
+
+.btn_htmlacademy {
+    float: right;
+    display: block;
+    width: 113px;
+    padding: 15px 0;
+    margin-right: 104px;
+    margin-top: 25px;
 }
 
 label {
@@ -611,10 +680,44 @@ fieldset {
     background-color: #81b3d2;
     text-transform: uppercase;
     color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
   }
 
   .search_form {
-    display: none
+    display: none;
+    width: 572px;
+    min-height: 395px;
+    margin: 0 auto;
+  }
+
+  .form_cover label {
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+
+  .form_cover input[type="text"] {
+  padding: 3px;
+  background-color: #f2f2f2;
+  position: relative;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+  .form_cover input[type="text"]::after {
+  content: "\e800";
+  position: absolute;
+  font-family: "symbols-sedona";
+  font-size: 21px;
+  line-height: 26px;
+}
+
+
+
+  .form_cover {
+    margin: 30px auto;
   }
 
 
@@ -644,4 +747,17 @@ fieldset {
 
   input[type="checkbox"]:checked + label::before {
     content: "\2611";
+  }
+
+  .btn_book {
+    display: inline-block;
+    width: 110px;
+    padding: 1px 4px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #766357;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
   }
