@@ -541,8 +541,6 @@ fieldset {
 
 .hotel_filter_text_bold {
   color: #ffffff;
-  text-transform: uppercase;
-  text-transform: uppercase;
   font-size: 16px;
   line-height: 21px;
   padding: 10px;
@@ -564,12 +562,15 @@ fieldset {
 }
 
 .sort_field .text_bold {
+  display: block;
   float: left;
   text-align: center;
   width: 120px;
   margin-left: 72px;
   font-size: 21px;
   line-height: 26px;
+  text-transform: uppercase;
+  padding: 2px 0;
 }
 
 .sorter_field {
@@ -579,38 +580,67 @@ fieldset {
   font-weight: normal;
   width: 400px;
   padding: 0 10px;
-  margin-left: 40px;
+  margin-left: 34px;
 }
 
-.sort_field_list::after {
+
+.sort_field_item {
+  padding-right: 32px;
+  font-size: 12px;
+  line-height: 18px;
+  display: inline-block;
+  border-bottom: 1px dashed #000000;
+}
+
+.sorter_field::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.sort_field_item {
-  float: left;
-  padding-right: 32px;
-  font-size: 12px;
-  line-height: 18px;
-  display: inline-block;
-}
-
 .sort_field_list {
+  float: right;
   list-style: none;
   display: inline-block;
+  margin-right: 9px;
+  padding-top: 3px;
 }
 
 .sort_field_simple_text {
+  float: left;
   display: inline-block;
   font-size: 12px;
   line-height: 18px;
-  margin-right: 37px;
+  padding: 7px 0;
 }
 
 .arrows {
   float: right;
-  margin-right: 70px;
+  margin-right: 63px;
+  padding: 3px 0;
+  color: #cccccc;
+}
+
+
+.arrows::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.arrow_up {
+  float: left;
+  display: block;
+  font-size: 21px;
+  color: #cccccc;
+  margin-right: -15px;
+}
+.arrow_down {
+  float: right;
+  display: block;
+  font-size: 21px;
+  margin-left: 10px;
+  color: #cccccc;
 }
 
 .hotels {
@@ -644,46 +674,107 @@ fieldset {
 .hotel_info {
   float: left;
   width: 360px;
-  display: inline-block;
+  margin-left: 31px;
 }
 
 .hotel_rating {
   float: right;
-  width: 135px;
+  width: 160px;
   padding: 30px 0;
+  margin-right: 27px;
+  margin-top: -2px;
 }
+
+
 
 .hotel_info .text_bold {
   display: block;
   width: 300px;
   font-size: 21px;
   line-height: 26px;
-  text-align: left;
-  padding-top: 25px;
+  padding-top: 26px;
   padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.hotel_info::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .hotel_info .simple_text {
-   padding-left: 30px;
-   padding-right: 170px;
-   white-space: pre;
+  display: block;
+  float: left;
+   font-weight: normal;
+   text-transform: uppercase;
  }
 
- .btn_details {
-    display: inline-block;
-    width: 110px;
-    padding: 1px 4px;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-right: 5px;
-    text-align: center;
-    background-color: #81b3d2;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 21px;
-  }
+.hotel_info .price {
+  display: block;
+  float: right;
+  font-weight: normal;
+  margin-right: 180px;
+}
 
+ .btn_details {
+display: inline-block;
+width: 110px;
+padding: 3px 0;
+margin-top: 10px;
+text-align: center;
+background-color: #81b3d2;
+text-transform: uppercase;
+color: #ffffff;
+font-size: 14px;
+line-height: 21px;
+font-weight: normal;
+}
+
+.btn_book {
+  display: inline-block;
+  width: 110px;
+  padding: 3px 17px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #766357;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.rating_star {
+  font-size: 18px;
+  padding: 1px;
+  color: #81b3d2;
+}
+
+.stars_1 {
+  margin-left: 25px;
+}
+
+.stars_2 {
+  margin-left: 72px;
+}
+
+.stars_3 {
+  margin-left: 50px;
+}
+
+.rating {
+  font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 40px;
+    color: #666666;
+    margin-right: 45px;
+    padding: 2px 3px;
+    margin-left: 10px;
+}
   .search_form {
     display: none;
     width: 572px;
@@ -733,7 +824,7 @@ fieldset {
     cursor: pointer;
   }
 
-  input[type="checkbox"] + label::before {
+  input[type="checkbox"]::before {
     content: "\2610";
     position: absolute;
     top: 0;
@@ -745,19 +836,6 @@ fieldset {
     font-family: "symbols-sedona";
   }
 
-  input[type="checkbox"]:checked + label::before {
+  input[type="checkbox"]:checked::before {
     content: "\2611";
-  }
-
-  .btn_book {
-    display: inline-block;
-    width: 110px;
-    padding: 1px 4px;
-    margin-top: 10px;
-    text-align: center;
-    background-color: #766357;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 21px;
   }
