@@ -17,8 +17,8 @@ margin: 0;
        url("../fonts/symbols-sedona.woff2") format("woff2");
 }
 
-[class^="icon-"]::before,
-[class*=" icon-"]::before {
+[class^="icon_"]::before,
+[class*=" icon_"]::before {
   display: inline-block;
   width: 1em;
   margin-right: 0.2em;
@@ -36,17 +36,17 @@ margin: 0;
   speak: none;
 }
 
-.icon-facebook::before { content: "\66"; } /* "f" */
-.icon-twitter::before { content: "\74"; } /* "t" */
-.icon-up-dir::before { content: "\25b2"; } /* "▲" */
-.icon-down-dir::before { content: "\25bc"; } /* "▼" */
-.icon-star::before { content: "\2605"; } /* "★" */
-.icon-check-off::before { content: "\2610"; } /* "☐" */
-.icon-check-on::before { content: "\2611"; } /* "☑" */
-.icon-calendar::before { content: "\e800"; } /* "" */
-.icon-plus::before { content: "\e801"; } /* "" */
-.icon-minus::before { content: "\e802"; } /* "" */
-.icon-youtube::before { content: "\f39e"; } /* "" */
+.icon_facebook::before { content: "\66"; } /* "f" */
+.icon_twitter::before { content: "\74"; } /* "t" */
+.icon_up-dir::before { content: "\25b2"; } /* "▲" */
+.icon_down-dir::before { content: "\25bc"; } /* "▼" */
+.icon_star::before { content: "\2605"; } /* "★" */
+.icon_check-off::before { content: "\2610"; } /* "☐" */
+.icon_check-on::before { content: "\2611"; } /* "☑" */
+.icon_calendar::before { content: "\e800"; } /* "" */
+.icon_plus::before { content: "\e801"; } /* "" */
+.icon_minus::before { content: "\e802"; } /* "" */
+.icon_youtube::before { content: "\f39e"; } /* "" */
 
 
 h2 {
