@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Выбор отелей в Седоне</title>
   <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:700,400&subset=cyrillic,latin" rel="stylesheet" type="text/css">
 </head>
 <body>
   <div class="container">
@@ -27,16 +28,16 @@
          <div class="hotel_filter_left">
            <fieldset class="hotel_filter_field field_1">
              <legend class="hotel_filter_text_bold">Инфраструктура</legend>
-             <label>Бассейн<input type="checkbox" name="swimming_pool" id="#"></label>
-             <label>Парковка<input type="checkbox" name="parking" id="#"></label>
-             <label>Wi-Fi<input type="checkbox" name="wifi"  id="#"></label>
+             <input type="checkbox" name="swimming_pool" id="swim"><label for="swim">Бассейн</label>
+             <input type="checkbox" name="parking" id="parking"><label for="parking">Парковка</label>
+             <input type="checkbox" name="wifi"  id="wifi"><label for="wifi">Wi-Fi</label>
            </fieldset>
 
-           <fieldset class="hotel_filter_field">
+           <fieldset class="hotel_filter_field field_2">
              <legend class="hotel_filter_text_bold">Тип жилья</legend>
-             <label>Гостиница<input type="checkbox" name="hotel" id="#"></label>
-             <label>Мотель<input type="checkbox" name="motel" id="#"></label>
-             <label>Апартаменты<input type="checkbox" name="apart" id="#"></label>
+             <input type="checkbox" name="hotel" id="ht"><label for="ht">Гостиница</label>
+             <input type="checkbox" name="motel" id="mt"><label for="mt">Мотель</label>
+             <input type="checkbox" name="apart" id="ap"><label for="ap">Апартаменты</label>
            </fieldset>
         </div>
 
@@ -45,7 +46,7 @@
            <legend class="hotel_filter_text_bold">Стоимость в сутки (Р):</legend>
            <input type="text" name="rates" value="от 0 до 3000" id="#">
          </fieldset>
-           <a class="btn_hotel_search_filter"><input type="submit" name="search" value="Показать" class="submit"></a>
+           <input type="submit" name="search" value="Показать" class="submit">
       </div>
      </form>
    </section>
