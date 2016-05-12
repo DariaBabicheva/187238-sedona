@@ -44,9 +44,18 @@
        <div class="hotel_filter_right">
          <fieldset class="hotel_filter_rates">
            <legend class="hotel_filter_text_bold">Стоимость в сутки (Р):</legend>
-           <input type="text" name="rates" value="от 0 до 3000" id="#">
+           <div class="price_controls">
+             <label class="min_price">от<input type="text" name="min_rates" value="0"></label>
+             <label class="max_price">до<input type="text" name="max_rates" value="3000"></label>
+           </div>
          </fieldset>
-           <input type="submit" name="search" value="Показать" class="submit">
+         <div class="range_controls">
+           <div class="scale">
+             <div class="bar"></div>
+           </div>
+           <div class="range_toggle range_toggle_min"></div>
+           <div class="range_toggle range_toggle_max"></div>
+           <button class="btn_show" type="submit">Показать</button>
       </div>
      </form>
    </section>

@@ -120,16 +120,22 @@
 <div class="search_form">
    <form action="#" method="post" class="search">
      <div class="form_cover">
-       <label for="check-in">Дата заезда:</label><input type="data" name="check_in_date" class="calendar" value="24 апреля 2016" id="check_in">
+       <label for="check-in">Дата заезда:</label><input type="data" name="check_in_date" value="24 апреля 2016" id="check_in">
+       <span class="icon_calendar calendar_check_in"></span>
      </div>
      <div class="form_cover">
-       <label for="check_out">Дата выезда:</label><input type="data" name="check_out_date" class="calendar" value="4 июля 2016" id="check_out">
+       <label for="check_out">Дата выезда:</label><input type="data" name="check_out_date" value="4 июля 2016" id="check_out">
+       <span class="icon_calendar calendar_check_out"></span>
      </div>
      <div class="form_cover_people adult">
-       <label for="ad">Взрослые:</label><input type="text" name="button" class="button" value="2" id="ad">
+       <label for="ad">Взрослые:</label><input type="text" name="adult_button" value="2" id="ad">
+       <span class="icon_minus minus_adult"></span>
+       <span class="icon_plus plus_adult"></span>
      </div>
      <div class="form_cover_people child">
-       <label for="ch">Дети:</label><input type="text" name="button" class="button" value="0" id="ch">
+       <label for="ch" class="label_child">Дети:</label><input type="text" name="child_button" value="0" id="ch">
+       <span class="icon_minus minus_child"></span>
+       <span class="icon_plus plus_child"></span>
      </div>
      <input type="submit" name="search" value="Найти" class="submit">
    </form>
