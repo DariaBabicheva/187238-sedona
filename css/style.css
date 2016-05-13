@@ -1,11 +1,11 @@
 body {
-font-family: "PT Sans", "Arial", sans-serif;
-font-size: 14px;
-line-height: 26px;
-color: #000000;
-font-weight: bold;
-background-color: #f2f2f2;
-margin: 0;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  margin: 0;
 }
 
 @font-face {
@@ -41,8 +41,8 @@ margin: 0;
 .icon_up_dir::before { content: "\25b2"; } /* "▲" */
 .icon_down_dir::before { content: "\25bc"; } /* "▼" */
 .icon_star::before { content: "\2605"; } /* "★" */
-.icon_check_off::before { content: "\2610"; } /* "☐" */
-.icon_check_on::before { content: "\2611"; } /* "☑" */
+.icon_check-off::before { content: "\2610"; } /* "☐" */
+.icon_check-on::before { content: "\2611"; } /* "☑" */
 .icon_calendar::before { content: "\e800"; } /* "" */
 .icon_plus::before { content: "\e801"; } /* "" */
 .icon_minus::before { content: "\e802"; } /* "" */
@@ -50,7 +50,7 @@ margin: 0;
 
 
 h2 {
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: "PT Sans";
   font-size: 21px;
   line-height: 26px;
   color: #333333;
@@ -69,11 +69,6 @@ a {
 
 a:active{
   outline:none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 
@@ -314,16 +309,16 @@ img {
 
 .feature_2 .field_text_bold {
   display: block;
-  width: 150px;
-  padding-top: 55px;
-  padding-bottom: 23px;
-  margin: 0 auto;
-  font-size: 21px;
-  line-height: 21px;
-  color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: normal;
+width: 150px;
+padding-top: 55px;
+padding-bottom: 23px;
+margin: 0 auto;
+font-size: 21px;
+line-height: 21px;
+color: #ffffff;
+text-align: center;
+text-transform: uppercase;
+font-weight: normal;
 }
 
 .feature_2 .field_simple_text {
@@ -361,31 +356,31 @@ img {
 
 .reason .simple_text {
   width: 266px;
-  padding-top: 11px;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: normal;
-  text-transform: uppercase;
-  line-height: 21px;
-  text-align: center;
+padding-top: 11px;
+margin-left: auto;
+margin-right: auto;
+font-weight: normal;
+text-transform: uppercase;
+line-height: 21px;
+text-align: center;
 }
 
 .reason p {
   width: 266px;
-  padding-top: 11px;
-  padding-bottom: 43px;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: normal;
-  text-transform: uppercase;
-  line-height: 21px;
-  text-align: center;
+padding-top: 11px;
+padding-bottom: 43px;
+margin-left: auto;
+margin-right: auto;
+font-weight: normal;
+text-transform: uppercase;
+line-height: 21px;
+text-align: center;
 }
 
 .item {
-  width: 1200px;
-  min-height: 293px;
-  margin: 0 auto;
+width: 1200px;
+min-height: 293px;
+margin: 0 auto;
 }
 
 .item_article {
@@ -466,15 +461,15 @@ img {
 }
 
 .social_btn {
-  display: inline-block;
-  vertical-align: bottom;
-  padding: 14px 10px;
-  background: #81b3d2;
-  color: #ffffff;
-  font-size: 19px;
-  line-height: 20px;
-  margin-top: 34px;
-  margin-right: 2px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 14px 10px;
+    background: #81b3d2;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 20px;
+    margin-top: 34px;
+    margin-right: 2px;
 }
 
 .social_btn:hover {
@@ -514,12 +509,12 @@ img {
 }
 
 .btn_htmlacademy {
-  float: right;
-  display: block;
-  width: 113px;
-  padding: 15px 0;
-  margin-right: 104px;
-  margin-top: 25px;
+    float: right;
+    display: block;
+    width: 113px;
+    padding: 15px 0;
+    margin-right: 104px;
+    margin-top: 25px;
 }
 
 .btn_htmlacademy:hover img {
@@ -593,11 +588,11 @@ fieldset {
 }
 
 .field_1 .hotel_filter_text_bold {
-  padding-top: 27px;
-  display: block;
-  text-transform: uppercase;
-  font-weight: normal;
-  margin-left: -11px;
+padding-top: 27px;
+display: block;
+text-transform: uppercase;
+font-weight: normal;
+margin-left: -11px;
 }
 
 .field_2 {
@@ -775,7 +770,7 @@ fieldset {
 }
 
 .sort_field_item:nth-child(1) {
-  border-bottom: none;
+border-bottom: none;
 }
 
 .sort_field_item:nth-child(1) a {
@@ -953,17 +948,17 @@ fieldset {
 }
 
  .btn_details {
-  display: inline-block;
-  width: 110px;
-  padding: 3px 0;
-  margin-top: 10px;
-  text-align: center;
-  background-color: #81b3d2;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: normal;
+display: inline-block;
+width: 110px;
+padding: 3px 0;
+margin-top: 10px;
+text-align: center;
+background-color: #81b3d2;
+text-transform: uppercase;
+color: #ffffff;
+font-size: 14px;
+line-height: 21px;
+font-weight: normal;
 }
 
 .btn_details:hover {
@@ -1018,26 +1013,26 @@ fieldset {
 
 .rating {
   font-size: 14px;
-  line-height: 21px;
-  text-transform: uppercase;
-  font-weight: normal;
-  background-color: #f2f2f2;
-  text-align: center;
-  margin-top: 40px;
-  color: #666666;
-  margin-right: 45px;
-  padding: 2px 3px;
-  margin-left: 10px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 40px;
+    color: #666666;
+    margin-right: 45px;
+    padding: 2px 3px;
+    margin-left: 10px;
 }
 .search_form {
-  width: 567px;
-  min-height: 395px;
-  margin: 0 auto;
-  position: absolute;
-  left: 25%;
-  margin-left: 45px;
-  background-color: #ffffff;
-  z-index: 2;
+   width: 567px;
+   min-height: 395px;
+   margin: 0 auto;
+   position: absolute;
+   left: 25%;
+   margin-left: 45px;
+   background-color: #ffffff;
+   z-index: 2;
  }
 
  .search_form form {
@@ -1076,76 +1071,76 @@ fieldset {
 }
 
 .form_cover label {
-  font-size: 14px;
-  line-height: 26px;
-  text-transform: uppercase;
-  color: #000000;
-  font-weight: bold;
-  padding: 4px;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    padding: 4px;
   }
 
-.form_cover_people label {
-  font-size: 14px;
-  line-height: 26px;
-  text-transform: uppercase;
-  color: #000000;
-  font-weight: bold;
-}
+  .form_cover_people label {
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
 
-.search input[type="data"] {
-  background-color: #f2f2f2;
-  padding: 10px;
-  padding-right: 218px;
-  margin-left: 12px;
-  border: none;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: bold;
-  position: relative;
- }
+  }
+  .search input[type="data"] {
+      background-color: #f2f2f2;
+      padding: 10px;
+      padding-right: 218px;
+      margin-left: 12px;
+      border: none;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: bold;
+      position: relative;
+    }
 
-.search input[type="data"]:hover {
-  background-color: #ebebeb;
+  .search input[type="data"]:hover {
+    background-color: #ebebeb;
   }
 
-.search input[type="data"]:active {
-  background-color: #ffffff;
-  border: 1px solid #e5e5e5;
+  .search input[type="data"]:active {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
   }
 
-.search input[type="text"] {
-  background-color: #f2f2f2;
-  padding: 10px;
-  margin-left: 40px;
-  width: 92px;
-  border: none;
-  text-align: center;
-  font-weight: bold;
-  font-size: 14px;
-  position: relative;
+  .search input[type="text"] {
+      background-color: #f2f2f2;
+      padding: 10px;
+      margin-left: 40px;
+      width: 92px;
+      border: none;
+      text-align: center;
+      font-weight: bold;
+      font-size: 14px;
+      position: relative;
   }
 
 
-.search input[type="submit"] {
-  background-color: #81b3d2;
-  color: #ffffff;
-  font-size: 21px;
-  line-height: 26px;
-  padding: 15px 193px;
-  margin-top: 30px;
-  text-transform: uppercase;
-  border: none;
+  .search input[type="submit"] {
+    background-color: #81b3d2;
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 26px;
+    padding: 15px 193px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    border: none;
   }
 
 .search input[type="submit"]:hover {
-  background-color: #669ec0;
-  border: none;
+    background-color: #669ec0;
+    border: none;
   }
 
 .search input[type="submit"]:active {
-  background-color: #5496bd;
-  color: #94b9d2;
-  border: none;
+    background-color: #5496bd;
+    color: #94b9d2;
+    border: none;
   }
 
 .icon_calendar {
@@ -1223,74 +1218,75 @@ fieldset {
 }
 
 
-input[type="checkbox"] {
-  display: none;
-}
 
-input[type="checkbox"] + label {
-  display: block;
-  padding-left: 40px;
-  padding-bottom: 15px;
-  position: relative;
-  cursor: pointer;
+  input[type="checkbox"] {
+    display: none;
   }
 
-input[type="checkbox"] + label::before {
-  content: "\2610";
-  position: absolute;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  font-size: 26px;
-  line-height: 20px;
-  color: #ffffff;
-  font-family: "symbols-sedona";
+  input[type="checkbox"] + label {
+    display: block;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    position: relative;
+    cursor: pointer;
   }
 
-input[id="swim"]+ label::before {
-  content: "\2611";
-  position: absolute;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  font-size: 26px;
-  line-height: 20px;
-  color: #ffffff;
-  font-family: "symbols-sedona";
+  input[type="checkbox"] + label::before {
+    content: "\2610";
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 26px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "symbols-sedona";
   }
 
-input[id="ht"]+ label::before {
-  content: "\2611";
-  position: absolute;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  font-size: 26px;
-  line-height: 20px;
-  color: #ffffff;
-  font-family: "symbols-sedona";
+  input[id="swim"]+ label::before {
+    content: "\2611";
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 26px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "symbols-sedona"
   }
 
-input[id="mt"]+ label::before {
-  content: "\2611";
-  position: absolute;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  font-size: 26px;
-  line-height: 20px;
-  color: #ffffff;
-  font-family: "symbols-sedona";
+  input[id="ht"]+ label::before {
+    content: "\2611";
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 26px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "symbols-sedona"
   }
 
-input[id="ap"]+ label::before {
-  content: "\2611";
-  position: absolute;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  font-size: 26px;
-  line-height: 20px;
-  color: #ffffff;
-  font-family: "symbols-sedona";
+  input[id="mt"]+ label::before {
+    content: "\2611";
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 26px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "symbols-sedona"
+  }
+
+  input[id="ap"]+ label::before {
+    content: "\2611";
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 26px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "symbols-sedona"
   }
