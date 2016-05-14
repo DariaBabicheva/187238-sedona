@@ -41,8 +41,8 @@ body {
 .icon_up_dir::before { content: "\25b2"; } /* "▲" */
 .icon_down_dir::before { content: "\25bc"; } /* "▼" */
 .icon_star::before { content: "\2605"; } /* "★" */
-.icon_check-off::before { content: "\2610"; } /* "☐" */
-.icon_check-on::before { content: "\2611"; } /* "☑" */
+.icon_check_off::before { content: "\2610"; } /* "☐" */
+.icon_check_on::before { content: "\2611"; } /* "☑" */
 .icon_calendar::before { content: "\e800"; } /* "" */
 .icon_plus::before { content: "\e801"; } /* "" */
 .icon_minus::before { content: "\e802"; } /* "" */
@@ -50,7 +50,7 @@ body {
 
 
 h2 {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 21px;
   line-height: 26px;
   color: #333333;
@@ -72,6 +72,10 @@ a:active{
   outline:none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 .container {
   width: 1200px;
@@ -542,8 +546,8 @@ fieldset {
 
 .hotel_filter {
   width: 1200px;
-  min-height: 220px;
-  background: url("../img/filter_background.jpg") no-repeat;
+  min-height: 218px;
+  background: #81b3d2 url("../img/filter_background.jpg") no-repeat;
 }
 
 .hotel_filter_form::after {
@@ -562,7 +566,7 @@ fieldset {
   float: right;
   color: #ffffff;
   text-transform: uppercase;
-  margin-right: 70px;
+  margin-right: 63px;
 }
 
 .hotel_filter_rates {
@@ -646,6 +650,7 @@ fieldset {
   line-height: 38px;
   vertical-align: top;
   cursor: pointer;
+  font-weight: normal;
 }
 
 .price_controls .min_price,
@@ -662,6 +667,8 @@ fieldset {
   background: none;
   border: none;
   outline: none;
+  padding-left: 3px;
+  font-weight: normal;
 }
 
 .range_controls {
@@ -706,7 +713,7 @@ fieldset {
 
 .btn_show {
   display: block;
-  margin: 30px auto;
+  margin: 10px 86px;
   padding: 6px 35px;
   font-size: 14px;
   line-height: 20px;
@@ -767,31 +774,30 @@ fieldset {
   font-size: 12px;
   line-height: 18px;
   display: inline-block;
-  border-bottom: 1px dotted #000000;
+  border-bottom: 1px dotted #81b3d2;
 }
 
-.sort_field_item:nth-child(1) {
-border-bottom: none;
+.sort_field_item a {
+  color: #cccccc;
 }
 
-.sort_field_item:nth-child(1) a {
+.active_sort_item {
+  border: none;
+}
+
+.active_sort_item a {
+  color: #81b3d2;
+  cursor: none;
+}
+
+.sort_field_item:hover a {
   color: #81b3d2;
 }
 
-.sort_field_item:nth-child(2):hover a {
-  color: #81b3d2;
-}
-
-.sort_field_item:nth-child(2):active a {
+.sort_field_item:active a {
   color: #000000;
-}
-
-.sort_field_item:nth-child(3):hover a {
-  color: #81b3d2;
-}
-
-.sort_field_item:nth-child(3):active a {
-  color: #000000;
+  border: 0;
+  outline: none;
 }
 
 .sorter_field::after {
@@ -1109,6 +1115,7 @@ border-bottom: none;
 .search input[type="data"]:active {
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
+  outline: none;
 }
 
 .search input[type="text"] {
@@ -1132,6 +1139,8 @@ border-bottom: none;
   margin-top: 30px;
   text-transform: uppercase;
   border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .search input[type="submit"]:hover {
