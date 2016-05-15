@@ -82,7 +82,7 @@ img {
   padding: 0;
   margin: 0 auto;
   background-color: #ffffff;
-  box-shadow: #f2f2f2;
+  box-shadow: 5px 0px 15px rgba(0, 0, 0, .2);
 }
 
 .main_header {
@@ -246,7 +246,6 @@ img {
   line-height: 21px;
 }
 
-
 .features {
   content: "";
   display: table;
@@ -258,8 +257,8 @@ img {
 
 .features_item {
   width: 400px;
-  padding-top: 29px;
-  padding-bottom: 57px;
+  padding-top: 30px;
+  padding-bottom: 52px;
   margin: 0 auto;
   float: left;
 }
@@ -281,8 +280,8 @@ img {
 }
 
 .features_item .simple_text {
-  width: 283px;
-  padding: 25px 0;
+  width: 285px;
+  padding-top: 23px;
   margin: 0 auto;
   text-transform: uppercase;
   font-weight: normal;
@@ -357,11 +356,8 @@ img {
   padding-bottom: 6px;
 }
 
-
-
 .reason .simple_text {
   width: 266px;
-  padding-top: 11px;
   margin-left: auto;
   margin-right: auto;
   font-weight: normal;
@@ -371,15 +367,12 @@ img {
 }
 
 .reason p {
-  width: 266px;
-  padding-top: 11px;
-  padding-bottom: 43px;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: normal;
-  text-transform: uppercase;
-  line-height: 21px;
-  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.number {
+  padding-top: 14px;
 }
 
 .item {
@@ -404,7 +397,6 @@ img {
   text-transform: uppercase;
   padding: 30px 0;
   text-align: center;
-
 }
 
 .btn_hotel_search {
@@ -430,7 +422,6 @@ img {
   width: 1200px;
   height: 593px;
   position: relative;
-
 }
 
 .footer::after {
@@ -454,7 +445,7 @@ img {
   margin: 0 auto;
   font-size: 21px;
   line-height: 26px;
-  padding: 20px 0;
+  padding: 21px 0;
   margin-top: 27px;
 }
 
@@ -473,7 +464,7 @@ img {
   color: #ffffff;
   font-size: 19px;
   line-height: 20px;
-  margin-top: 34px;
+  margin-top: 36px;
   margin-right: 2px;
 }
 
@@ -510,7 +501,7 @@ img {
   text-align: center;
   font-weight: normal;
   margin-left: 98px;
-  margin-top: 16px;
+  margin-top: 18px;
 }
 
 .btn_htmlacademy {
@@ -519,11 +510,11 @@ img {
   width: 113px;
   padding: 15px 0;
   margin-right: 104px;
-  margin-top: 25px;
+  margin-top: 27px;
 }
 
-.btn_htmlacademy:hover img {
-  color: #88b7d4;
+.btn_htmlacademy:hover::before img {
+  background: url("../img/html_logo_blue.png") no-repeat;
 }
 
 .btn_htmlacademy:active img {
@@ -733,7 +724,7 @@ fieldset {
 
 .sort_field {
   width: 1200px;
-  padding-top: 27px;
+  padding-top: 29px;
   margin: 0 auto;
   min-height: 56px;
   border-bottom: 1px solid #e5e5e5;
@@ -751,7 +742,7 @@ fieldset {
   float: left;
   text-align: center;
   width: 120px;
-  margin-left: 72px;
+  margin-left: 70px;
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
@@ -1027,9 +1018,8 @@ fieldset {
   text-align: center;
   margin-top: 40px;
   color: #666666;
-  margin-right: 45px;
-  padding: 2px 3px;
-  margin-left: 10px;
+  margin-right: 42px;
+  padding: 2px 0;
 }
 
 .search_form {
