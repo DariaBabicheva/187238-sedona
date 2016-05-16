@@ -109,7 +109,7 @@ img {
   color: #cacaca;
 }
 
-.main_nav_list {
+.main_nav_list::after {
   content: "";
   display: table;
   clear: both;
@@ -132,7 +132,6 @@ img {
 
 .main_nav_item:nth-child(4) {
   float: right;
-  margin-left: 390px;
 }
 
 
@@ -188,7 +187,7 @@ img {
 
 
 .intro .simple_text {
-  width: 488px;
+  width: 495px;
   padding-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -638,7 +637,7 @@ fieldset {
 .price_controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 38px;
+  line-height: 33px;
   vertical-align: top;
   cursor: pointer;
   font-weight: normal;
@@ -652,6 +651,7 @@ fieldset {
 
 .price_controls input {
   width: 50px;
+  height: 31px;
   margin: 0;
   color: inherit;
   font: inherit;
@@ -1025,10 +1025,8 @@ fieldset {
 .search_form {
   width: 567px;
   min-height: 395px;
-  margin: 0 auto;
+  margin: 0 317px;
   position: absolute;
-  left: 25%;
-  margin-left: 45px;
   background-color: #ffffff;
   z-index: 2;
  }
@@ -1095,6 +1093,7 @@ fieldset {
   font-weight: bold;
   position: relative;
   width: 346px;
+  height: 36px;
   box-sizing: border-box;
 }
 
@@ -1110,9 +1109,9 @@ fieldset {
 
 .search input[type="text"] {
   background-color: #f2f2f2;
-  padding: 10px;
   margin-left: 40px;
-  width: 92px;
+  width: 114px;
+  height: 36px;
   border: none;
   text-align: center;
   font-weight: bold;
@@ -1126,7 +1125,7 @@ fieldset {
   font-size: 21px;
   line-height: 26px;
   padding: 15px 193px;
-  margin-top: 30px;
+  margin-top: 28px;
   text-transform: uppercase;
   border: none;
   outline: none;
