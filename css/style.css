@@ -576,6 +576,7 @@ fieldset {
 .hotel_filter_field {
   width: 200px;
   display: inline-block;
+  vertical-align: bottom;
 }
 
 .field_1 {
@@ -636,6 +637,7 @@ fieldset {
 
 .price_controls label {
   display: inline-block;
+  vertical-align: middle;
   font-size: 14px;
   line-height: 33px;
   vertical-align: top;
@@ -751,6 +753,7 @@ fieldset {
 
 .sorter_field {
   display: inline-block;
+  vertical-align: middle;
   float: left;
   text-transform: uppercase;
   font-weight: normal;
@@ -765,6 +768,7 @@ fieldset {
   font-size: 12px;
   line-height: 18px;
   display: inline-block;
+  vertical-align: middle;
   border-bottom: 1px dotted #81b3d2;
 }
 
@@ -801,6 +805,7 @@ fieldset {
   float: right;
   list-style: none;
   display: inline-block;
+  vertical-align: middle;
   margin-right: 9px;
   padding-top: 3px;
 }
@@ -808,6 +813,7 @@ fieldset {
 .sort_field_simple_text {
   float: left;
   display: inline-block;
+  vertical-align: middle;
   font-size: 12px;
   line-height: 18px;
   padding: 7px 0;
@@ -947,6 +953,7 @@ fieldset {
 
  .btn_details {
   display: inline-block;
+  vertical-align: bottom;
   width: 110px;
   padding: 3px 0;
   margin-top: 10px;
@@ -970,6 +977,7 @@ fieldset {
 
 .btn_book {
   display: inline-block;
+  vertical-align: bottom;
   width: 110px;
   padding: 3px 17px;
   margin-top: 10px;
